@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="S2R: Illumination-Aware Synthetic-to-Real Adaptation for Single-Image Human Material Estimation. ACM Multimedia 2026.">
+  <meta name="theme-color" content="#123d3b">
+  <title>S2R | Single-Image Human Material Estimation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="S2R home">S2R</a>
+    <nav aria-label="Page navigation">
+      <a href="#abstract">Abstract</a>
+      <a href="#method">Method</a>
+      <a href="#results">Results</a>
+      <a href="#citation">Citation</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="venue">ACM Multimedia 2026</div>
+      <h1><span>S2R:</span> Illumination-Aware Synthetic-to-Real Adaptation for Single-Image Human Material Estimation</h1>
+
+      <div class="authors" aria-label="Authors">
+        <a href="mailto:jiangyu1181@whu.edu.cn">Yu Jiang</a>
+        <a href="mailto:jiahao.xia-1@uts.edu.au">Jiahao Xia</a>
+        <a href="mailto:sunjc0306@whu.edu.cn">Jianchi Sun</a>
+        <a href="mailto:2022102110003@whu.edu.cn">Jiongming Qin</a>
+        <a href="mailto:tcao@iaii.ac.cn">Tuo Cao</a>
+        <a href="mailto:wangyusen@whu.edu.cn">Yusen Wang</a>
+        <a href="mailto:cxxiao@whu.edu.cn">Chunxia Xiao</a>
+      </div>
+
+      <div class="affiliations">
+        <span>Wuhan University</span>
+        <span>University of Technology Sydney</span>
+        <span>Institute of AI for Industries, Chinese Academy of Sciences</span>
+        <span>DFRD Institute</span>
+      </div>
+
+      <div class="actions" aria-label="Project resources">
+        <a class="button primary" href="https://doi.org/10.1145/3767308.3835903" target="_blank" rel="noreferrer">Paper</a>
+        <a class="button" href="assets/S2R-Supplementary.pdf" target="_blank">Supplementary</a>
+        <span class="button unavailable" aria-disabled="true">Code · Coming soon</span>
+        <span class="button unavailable" aria-disabled="true">Video · Coming soon</span>
+      </div>
+    </section>
+
+    <section class="figure hero-figure" aria-labelledby="teaser-caption">
+      <img src="assets/teaser.jpg" alt="S2R takes a single human image and estimates normal, diffuse albedo, roughness, specular albedo, and subsurface scattering maps for relighting.">
+      <p id="teaser-caption">From a single image, S2R estimates physically based human materials and enables realistic relighting under novel illumination.</p>
+    </section>
+
+    <section class="content" id="abstract">
+      <div class="section-label">Overview</div>
+      <h2>Abstract</h2>
+      <p>Single-image human material estimation aims to recover physically based rendering (PBR) attributes of a human from a single image, enabling realistic relighting for immersive multimedia applications. Although recent methods have achieved promising results on synthetic benchmarks, their predictions on real images may suffer from residual illumination artifacts, which lead to unrealistic relighting results. We argue that this limitation mainly arises from the domain gap between synthetic and real data in both material appearance and illumination, which aggravates the ambiguity between illumination and reflectance during inference.</p>
+      <p>To address this issue, we propose <strong>S2R</strong>, a novel two-stage synthetic-to-real framework for single-image human material estimation. In the first stage, we train the model on high-quality synthetic data with supervision under multiple constraints, and introduce an illumination-aware feature injection module to improve the disentanglement of material properties from shading. In the second stage, we selectively fine-tune the model on real images to transfer the knowledge learned from synthetic supervision to the real domain. This adaptation process is guided by self-supervised reconstruction and a teacher-student regularization, which together reduce the synthetic-to-real domain gap while preserving stable material estimation.</p>
+      <p>Extensive experiments on both synthetic and real-image benchmarks demonstrate that our method produces cleaner material estimation with fewer illumination residues and achieves more realistic relighting results than existing approaches.</p>
+    </section>
+
+    <section class="content" id="method">
+      <div class="section-label">Approach</div>
+      <h2>Illumination-aware adaptation</h2>
+      <div class="highlights">
+        <article>
+          <span>01</span>
+          <h3>Lighting-aware features</h3>
+          <p>Corrected lighting cues are injected into latent features to better separate illumination from reflectance.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Physics-inspired fusion</h3>
+          <p>External normal and albedo priors refine ambiguous regions while retaining physically meaningful material maps.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>Stable real adaptation</h3>
+          <p>A selective teacher–student strategy adapts domain-sensitive modules without erasing synthetic supervision.</p>
+        </article>
+      </div>
+      <figure class="figure wide">
+        <img src="assets/method.jpg" alt="Overview of the S2R architecture, including feature extraction, illumination-aware feature modulation, material decoding, and physically constrained fusion.">
+        <figcaption>Overview of the S2R framework.</figcaption>
+      </figure>
+    </section>
+
+    <section class="content" id="results">
+      <div class="section-label">Evaluation</div>
+      <h2>Cleaner materials, more faithful relighting</h2>
+      <p class="lead">S2R reduces illumination residues in estimated material maps and improves relighting on real human images.</p>
+      <figure class="figure wide">
+        <img src="assets/results.jpg" alt="Qualitative material estimation and relighting comparisons on real images across multiple baseline methods and S2R.">
+        <figcaption>Qualitative comparison on real images. Red boxes highlight representative material and relighting differences.</figcaption>
+      </figure>
+    </section>
+
+    <section class="content citation" id="citation">
+      <div class="section-label">Reference</div>
+      <h2>Citation</h2>
+      <p>Please use the following DOI when citing this work. The complete BibTeX entry will be updated after the ACM Digital Library record becomes active.</p>
+      <div class="doi-row">
+        <code>10.1145/3767308.3835903</code>
+        <a href="https://doi.org/10.1145/3767308.3835903" target="_blank" rel="noreferrer">Open DOI</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>S2R · ACM Multimedia 2026</p>
+  </footer>
+</body>
+</html>
