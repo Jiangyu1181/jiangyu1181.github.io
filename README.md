@@ -10,7 +10,7 @@ academic template, with a custom responsive layout and no client-side framework.
 
 - `data/publications.json` contains publication titles, authors, venues, years, and verified resource links.
   Only entries categorized as `computer-science` are displayed on the homepage.
-- `templates/home.html` contains the biography, education, experience, and awards.
+- `templates/home.html` contains the profile, biography, and research spotlight.
 - `assets/style.css` controls the layout and typography.
 - `assets/yu-jiang.jpg` is the portrait supplied in the academic CV.
 - `S2R/` is the existing project page. Its files were preserved during the homepage redesign.
