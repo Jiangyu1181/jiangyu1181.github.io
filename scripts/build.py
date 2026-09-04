@@ -45,11 +45,10 @@ def main():
     for p in papers:
         assert not any("\u4e00" <= c <= "\u9fff" for c in p["title"]), "English titles required"
     core = [p for p in papers if p["category"] == "computer-science"]
-    other = [p for p in papers if p["category"] != "computer-science"]
     template = Template((ROOT / "templates/home.html").read_text(encoding="utf-8"))
-    result = template.substitute(publications=group_publications(core), additional=group_publications(other))
+    result = template.substitute(publications=group_publications(core))
     (ROOT / "index.html").write_text(result, encoding="utf-8", newline="\n")
-    print(f"Built index.html: {len(core)} computer science papers and {len(other)} interdisciplinary entries.")
+    print(f"Built index.html: {len(core)} computer science papers.")
 
 
 if __name__ == "__main__":

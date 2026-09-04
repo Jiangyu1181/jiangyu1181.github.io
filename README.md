@@ -9,6 +9,7 @@ academic template, with a custom responsive layout and no client-side framework.
 ## Editing
 
 - `data/publications.json` contains publication titles, authors, venues, years, and verified resource links.
+  Only entries categorized as `computer-science` are displayed on the homepage.
 - `templates/home.html` contains the biography, education, experience, and awards.
 - `assets/style.css` controls the layout and typography.
 - `assets/yu-jiang.jpg` is the portrait supplied in the academic CV.
@@ -28,7 +29,7 @@ python -m http.server 8765 --bind 127.0.0.1
 
 GitHub Pages publishes `main` from the repository root. `.nojekyll` selects direct
 static serving. No package installation, external font service, analytics, or
-JavaScript is required to read the homepage and expand the publication list.
+JavaScript is required to read the homepage.
 
 ## Content sources
 
