@@ -1,0 +1,220 @@
+[
+  {
+    "id": "s2r",
+    "year": 2026,
+    "title": "S2R: Illumination-Aware Synthetic-to-Real Adaptation for Single-Image Human Material Estimation",
+    "authors": "Yu Jiang, Jiahao Xia, Jianchi Sun, Jiongming Qin, Tuo Cao, Yusen Wang, and Chunxia Xiao",
+    "venue": "ACM Multimedia (ACM MM)",
+    "short": "ACM MM",
+    "category": "computer-science",
+    "links": {
+      "Project": "S2R/"
+    }
+  },
+  {
+    "id": "guide",
+    "year": 2026,
+    "title": "GUIDE: Dual-Gated Semantic Conditioning with Correctable Priors for Single-Image Human Material Estimation",
+    "authors": "Yu Jiang, Jianchi Sun, Xiangqian Shen, and Chunxia Xiao",
+    "venue": "The Visual Computer",
+    "short": "TVC",
+    "category": "computer-science",
+    "links": {
+      "Paper": "https://link.springer.com/article/10.1007/s00371-026-04571-2"
+    }
+  },
+  {
+    "id": "duolit",
+    "year": 2026,
+    "title": "DuoLit: Dual-Level Priors and Gated Lighting Injection for Human Material Estimation",
+    "authors": "Yu Jiang, Jianchi Sun, Xiangqian Shen, and Chunxia Xiao",
+    "venue": "The Visual Computer",
+    "short": "TVC",
+    "category": "computer-science",
+    "links": {
+      "Paper": "https://link.springer.com/article/10.1007/s00371-026-04573-0"
+    }
+  },
+  {
+    "id": "hafmat",
+    "year": 2026,
+    "title": "HAFMat: Hybrid Priors Guided Adaptive Fusion for Single-Image Human Material Estimation",
+    "authors": "Yu Jiang, Jiahao Xia, Jiongming Qin, Jianchi Sun, and Chunxia Xiao",
+    "venue": "The Visual Computer",
+    "short": "TVC",
+    "category": "computer-science",
+    "links": {
+      "Paper": "https://link.springer.com/article/10.1007/s00371-026-04588-7",
+      "arXiv": "https://arxiv.org/abs/2606.16323"
+    }
+  },
+  {
+    "id": "neuralroom",
+    "year": 2022,
+    "title": "NeuralRoom: Geometry-Constrained Neural Implicit Surfaces for Indoor Scene Reconstruction",
+    "authors": "Yusen Wang, Zongcheng Li, Yu Jiang, Kaixuan Zhou, Tuo Cao, Yanping Fu, and Chunxia Xiao",
+    "venue": "ACM Transactions on Graphics (SIGGRAPH Asia)",
+    "short": "TOG",
+    "category": "computer-science",
+    "links": {
+      "Paper": "https://doi.org/10.1145/3550454.3555514",
+      "arXiv": "https://arxiv.org/abs/2210.06853"
+    }
+  },
+  {
+    "id": "change-detection",
+    "year": 2020,
+    "title": "Change detection method for high-resolution remote sensing image based on multi-scale and sparse convolution",
+    "authors": "Lei Hu, Yu Jiang, Jin Li, and Yongmei Zhang",
+    "venue": "Journal of Chinese Computer Systems",
+    "short": "JCCS",
+    "category": "computer-science",
+    "links": {}
+  },
+  {
+    "id": "knowledge-graph",
+    "year": 2019,
+    "title": "Optimization Design of Internet Fraud Case Based on Knowledge Graph and Case Teaching",
+    "authors": "Lei Hu, Yu Jiang, and Yuanshan Li",
+    "venue": "International Conference on Information and Education Technology (ICIET)",
+    "short": "ICIET",
+    "category": "computer-science",
+    "links": {
+      "Paper": "https://doi.org/10.1145/3323771.3323806"
+    }
+  },
+  {
+    "id": "humanpro",
+    "year": 2026,
+    "title": "HumanPro: Single-view 3D Clothed Human Reconstruction with Progressive Normal Guidance",
+    "authors": "Jianchi Sun, Fei Luo, Wenzhuo Fan, Yu Jiang, and Chunxia Xiao",
+    "venue": "Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)",
+    "short": "AAAI",
+    "category": "computer-science",
+    "links": {
+      "Paper": "https://ojs.aaai.org/index.php/AAAI/article/view/37875"
+    }
+  },
+  {
+    "id": "jumpinggs",
+    "year": 2025,
+    "title": "JumpingGS: Level-jump 3D Gaussian Representation for Delicate Textures in Aerial Large-scale Scene Rendering",
+    "authors": "Jiongming Qin, Kaixuan Zhou, Yu Jiang, Huizhi Zhu, Fei Luo, and Chunxia Xiao",
+    "venue": "ACM Transactions on Graphics (SIGGRAPH Asia)",
+    "short": "TOG",
+    "category": "computer-science",
+    "links": {
+      "Paper": "https://doi.org/10.1145/3763347"
+    }
+  },
+  {
+    "id": "gaussian-surface",
+    "year": 2025,
+    "title": "Robust Gaussian Surface Reconstruction with Semantic Aware Progressive Propagation",
+    "authors": "Yusen Wang, Huan Zhou, Yu Jiang, and Chunxia Xiao",
+    "venue": "ACM Multimedia",
+    "short": "ACM MM",
+    "category": "computer-science",
+    "links": {
+      "Paper": "https://doi.org/10.1145/3746027.3755649"
+    }
+  },
+  {
+    "id": "ig6dof",
+    "year": 2025,
+    "title": "iG-6DoF: Model-free 6DoF Pose Estimation for Unseen Object via Iterative 3D Gaussian Splatting",
+    "authors": "Tuo Cao, Fei Luo, Jiongming Qin, Yu Jiang, Yusen Wang, and Chunxia Xiao",
+    "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "short": "CVPR",
+    "category": "computer-science",
+    "links": {
+      "PDF": "https://openaccess.thecvf.com/content/CVPR2025/papers/Cao_iG-6DoF_Model-free_6DoF_Pose_Estimation_for_Unseen_Object_via_Iterative_CVPR_2025_paper.pdf"
+    }
+  },
+  {
+    "id": "wricnet",
+    "year": 2022,
+    "title": "WRICNet: A weighted rich-scale inception coder network for remote sensing image change detection",
+    "authors": "Yu Jiang, Lei Hu, Yongmei Zhang, and Xin Yang",
+    "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+    "short": "TGRS",
+    "category": "computer-science",
+    "links": {
+      "Paper": "https://doi.org/10.1109/TGRS.2022.3145652",
+      "arXiv": "https://arxiv.org/abs/2108.07955"
+    }
+  },
+  {
+    "id": "humanir",
+    "year": 2025,
+    "title": "HumanIR-MGI: human inverse rendering via jointly optimizing geometry, material, and illumination",
+    "authors": "Ruhao Wang, Yu Jiang, Huizhi Zhu, Fei Luo, and Chunxia Xiao",
+    "venue": "The Visual Computer",
+    "short": "TVC",
+    "category": "computer-science",
+    "links": {
+      "Paper": "https://link.springer.com/article/10.1007/s00371-025-04035-z"
+    }
+  },
+  {
+    "id": "cancer-privacy",
+    "year": 2026,
+    "title": "Legal Protection of Cancer Patients' Health and Genomic Data Privacy",
+    "authors": "Xiaolan Yu and Yu Jiang",
+    "venue": "Cancer Nursing",
+    "short": "CN",
+    "category": "interdisciplinary",
+    "links": {}
+  },
+  {
+    "id": "maritime-monetization",
+    "year": 2025,
+    "title": "Theoretical and Practical Aspects of Data Asset Monetization in Maritime Enterprises",
+    "authors": "Yu Jiang, Xiaolan Yu",
+    "venue": "Fudan Journal of the Humanities and Social Sciences, 18(4), 657–685",
+    "short": "FJHSS",
+    "category": "interdisciplinary",
+    "links": {
+      "Paper": "https://doi.org/10.1007/s40647-024-00415-2"
+    },
+    "note": "First published online in 2024."
+  },
+  {
+    "id": "data-rights",
+    "year": 2025,
+    "title": "Legal Criteria for the Adjudication of Public Interest In Disputes over Data Rights: Incorporating the Significance of Personal Information Protection for Citizens' Mental Health and Social Trust",
+    "authors": "Xiaolan Yu, Youjia Qin, and Yu Jiang",
+    "venue": "Current Opinion in Psychiatry, 38, e-Supplement 2, e37",
+    "short": "COP",
+    "category": "interdisciplinary",
+    "links": {
+      "Paper": "https://doi.org/10.1097/01.yco.0001176124.77360.db"
+    },
+    "note": "Supplement entry 109."
+  },
+  {
+    "id": "maritime-governance",
+    "year": 2024,
+    "title": "Current status and governance of data assets monetization in the global maritime industry: A comparative study of the United States, Europe, and China",
+    "authors": "Zeng Yuan, Xiaolan Yu, Yu Jiang, Jianwei Sun, Zhihong Liu, Boyang Li",
+    "venue": "Ocean & Coastal Management",
+    "short": "OCM",
+    "category": "interdisciplinary",
+    "links": {
+      "Paper": "https://doi.org/10.1016/j.ocecoaman.2024.107078"
+    }
+  },
+  {
+    "id": "personal-data",
+    "year": 2026,
+    "title": "Unraveling the balance between personal data protection and public interest: a theoretical framework and its empirical application in personal data processing",
+    "authors": "Yu Jiang, Xiaolan Yu, and Youjia Qin",
+    "venue": "Journal of Chinese Governance, 11(2), 317–338",
+    "short": "JCG",
+    "category": "interdisciplinary",
+    "links": {
+      "Paper": "https://doi.org/10.1080/23812346.2025.2518818"
+    },
+    "note": "First published online in 2025."
+  }
+]
